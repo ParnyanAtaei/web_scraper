@@ -16,3 +16,18 @@ for item in links:
     if item_text and item_href:
         print(item_text)
         print(item_href)
+
+'''
+find sibling
+        children = item.find("h2")
+        print("next sibling pf the h2:", children.next_sibling)
+'''
+#        find parent
+#        print("Summery:", item.find("a").parent.parent.find("p").text)
+
+'''
+find children
+        children = item.children
+        for child in children:
+            print("child:", child)
+'''
